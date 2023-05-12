@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Kavoon', cursive;
+
+}
+
+.cdd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+
+.max{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.max h1{
+    width: 530px;
+    text-align: center;
+    line-height: 64px ;
+}
+
+.max button{
+    width: 354px;
+    height: 77px;
+    background-color: #D48B5C;
+    border-radius: 30px ;
+    font-family: 'Kavoon', cursive;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;    
+}
+
+.max button:hover{
+    background-color:blue;
+color: black;
+    
+}
